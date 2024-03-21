@@ -24,7 +24,7 @@ namespace tp3
 
         public override string ToString()
         {
-            return "code :" + codeCategorie + "\n  libellé :" +libCategorie;
+            return "code :" + codeCategorie + "\n  libellé :" + libCategorie;
         }
     }
 }

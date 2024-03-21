@@ -14,7 +14,7 @@ class Program
         Catégorie cat2 = new Catégorie("lieutenant", "Merci");
         Commerciale c2 = new Commerciale("Verstappen", "Max", 1987,cat2);
 
-        Commerciale c3 = new Commerciale("Monkey D", "Luffy", 1997,cat2 );
+        Commerciale c3 = new Commerciale("Monkey D", "Luffy", 1997, cat2);
 
         Console.WriteLine("voici les informations du commerciale : \n" + c1);
         Console.WriteLine("voici les informations du commerciale : \n" + c2);
