@@ -21,7 +21,7 @@
       <FileName>Service.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Program" Collapsed="true">
+  <Class Name="Program">
     <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
