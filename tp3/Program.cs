@@ -7,7 +7,7 @@ class Program
 
         Catégorie cat1 = new Catégorie("chef", "1");
         Catégorie cat2 = new Catégorie("lieutenant", "2");
-        Catégorie cat3 = new Catégorie("employé", "3");
+        Catégorie cat3 = new Catégorie("jsp", "3");
 
         Service s1 = new Service("international");
         Service s2 = new Service("national");
