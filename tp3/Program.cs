@@ -5,20 +5,23 @@ class Program
     static void Main(string[] args)
     {
 
-        Catégorie cat1 = new Catégorie("chef", "D'accord");
-        Commerciale c1 = new Commerciale("Habert", "Manon", 1990,cat1);
+        Catégorie cat1 = new Catégorie("chef", "1");
+        Catégorie cat2 = new Catégorie("lieutenant", "2");
+        Catégorie cat3 = new Catégorie("employé", "3");
 
-        Service s1 = new Service("international", [], 10);
-        Service s2 = new Service("national", [], 5);
+        Service s1 = new Service("international");
+        Service s2 = new Service("national");
 
-        Catégorie cat2 = new Catégorie("lieutenant", "Merci");
-        Commerciale c2 = new Commerciale("Verstappen", "Max", 1987,cat2);
 
-        Commerciale c3 = new Commerciale("Monkey D", "Luffy", 1997, cat2);
+        Commerciale c1 = new Commerciale("Ht", "zebi", 1990,cat1, s1);
+        Commerciale c2 = new Commerciale("Verstappen", "Max", 1987,cat2, s2);
+        Commerciale c3 = new Commerciale("Monkey D", "Luffy", 1997, cat3, s1);
+        Commerciale c4 = new Commerciale("Robin", "Nico", 2000, cat3, s2);
+        Commerciale c5 = new Commerciale("Roronoa", "Zoro", 1999, cat3, s1);
 
-        Console.WriteLine("voici les informations du commerciale : \n" + c1);
-        Console.WriteLine("voici les informations du commerciale : \n" + c2);
-        Console.WriteLine("voici les informations du commerciale : \n" + c3);
+
+        Console.WriteLine("voici les informations du commerciale : \n" + s1);
+        Console.WriteLine("voici les informations du commerciale : \n" + s2);
 
         c1.Compare(c2);
 
